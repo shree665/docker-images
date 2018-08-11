@@ -18,7 +18,7 @@ ENV GUAVA_NAME guava-17.0.jar
 ENV GENERIC_SLD generic.sld
 ENV GENERIC_XML generic.xml
 ENV S3_BUCKET_URL ${S3_BUCKET_URL}/geoserver
-ENV GEOSERVER_XSTREAM_WHITELIST com.bah.na.asc.**;org.geoserver.**
+ENV GEOSERVER_XSTREAM_WHITELIST org.geoserver.**
 
 # Update curl and bash
 RUN apk add --update curl bash && \
