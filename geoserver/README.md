@@ -1,4 +1,4 @@
-# GeoServer 2.13.2
+# GeoServer 2.13.2 with ElasticGeo for ElasticSearch
 
 This is inspired by https://github.com/kartoza/docker-geoserver
 
